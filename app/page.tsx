@@ -110,7 +110,7 @@ export default function GhostAuthPage() {
           </div>
           <div className="flex items-center gap-4">
             <a
-              href="https://github.com/kartikey/GhostAuth"
+              href="https://github.com/Kartikey-18/GhostAuth"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-2 text-sm text-[var(--color-text-secondary)] hover:text-[var(--color-text-primary)] transition-colors"
@@ -509,7 +509,7 @@ export default function GhostAuthPage() {
             <div className="text-sm text-[var(--color-text-muted)]">
               <p className="mb-2">Built with Next.js, snarkjs, and Groth16</p>
               <p>
-                <a href="https://github.com/kartikey/GhostAuth" className="text-[var(--color-cyan)] hover:underline">
+                <a href="https://github.com/Kartikey-18/GhostAuth" className="text-[var(--color-cyan)] hover:underline">
                   View on GitHub
                 </a>
               </p>
