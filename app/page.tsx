@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { Info, Lock, Unlock, Terminal, Shield, Eye, EyeOff, Github } from "lucide-react";
+import { Info, Lock, Unlock, Terminal, Shield, Eye, EyeOff, Github, ArrowLeft } from "lucide-react";
 import ConsoleOutput, { ConsoleLog } from "@/components/zkp/ConsoleOutput";
 import ServerView from "@/components/zkp/ServerView";
 import { ThemeToggle } from "@/components/ui/theme-toggle";
@@ -109,6 +109,13 @@ export default function GhostAuthPage() {
             <span className="text-lg font-bold text-[var(--color-text-primary)]">GhostAuth</span>
           </div>
           <div className="flex items-center gap-4">
+            <a
+              href="https://kartikey.io"
+              className="flex items-center gap-2 text-sm text-[var(--color-text-secondary)] hover:text-[var(--color-text-primary)] transition-colors"
+            >
+              <ArrowLeft className="w-4 h-4" />
+              <span className="hidden sm:inline">Back</span>
+            </a>
             <a
               href="https://github.com/Kartikey-18/GhostAuth"
               target="_blank"
